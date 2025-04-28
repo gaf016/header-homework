@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    width: 1440px;
+    margin: 0 auto;
+    padding: 0 166px;
+}
+.nav{
+    width:100%;
+    background-color: #282829;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sarlavha{
+    margin: 114px 0;
+    font-size: 88px;
+    font-weight: 500;
+    text-align: center;
+}
+.nav ul{
+    display: flex;
+    gap: 30px;
+}
+.card{
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    background-color: white;
+    color: black;
+}
+.card h2{
+    font-size: 24px;
+    font-weight: 700;
+    margin: 18px 0;
+}
+.card p{
+    font-size: 13px;
+    font-weight: 400;
+    margin: 0 24px;
+
+}
+.Cards{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: space-between;
+}
+.main{
+    padding: 0 166px;
+}
+
+
